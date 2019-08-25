@@ -1,0 +1,15 @@
+pip install --only-binary :all: mysqlclient
+
+
+pip install mysqlclient==1.4.2.post1
+
+python manage.py makemigrations
+
+python manage.py migrate 
+
+\My_Django_Stuff\django-admin startproject first_project
+
+
+\My_Django_Stuff\first_project>python manage.py startapp 
+
+python manage.py runserver
